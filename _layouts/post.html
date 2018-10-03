@@ -101,7 +101,7 @@ layout: default
         {% endif %}
 
       </div>
-		
+
 		<!--
       {% if site.twitter_username and site.disqus_account %}
       <div class="content-panel feedback">
@@ -118,8 +118,9 @@ layout: default
         I <i class="fa fa-heart"></i> feedback.<br />
         Let me know what you think of this article in the comment section below!
       </div>
-      {% endif %}--!>
-	  
+      {% endif %}
+      -->
+
       {% if site.disqus_account %}
       <div class="content-panel comments">
         <div id="disqus_thread">
@@ -129,7 +130,8 @@ layout: default
       </div>
       {% endif %}
 
-      {% if site.related_posts.length > 0 %}
+
+      <!-- {% if site.related_posts.length > 0 %}
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
@@ -165,7 +167,7 @@ layout: default
           {% endif %}
         </div>
       </div>
-      {% endif %}
+      {% endif %} -->
 
     </div>
 
